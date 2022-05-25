@@ -16,12 +16,15 @@ let nomeUtente = parseInt(prompt("inserisci il tuo nome"));
 
 for(let i=0; i < listaNomiInvitati.length; i++){
     console.log(listaNomiInvitati[i]);
-    
+
     if (nomeUtente==listaNomiInvitati){
         console.log("trovato");
         
 
-    }else{}
+    }else (nomeUtente != listaNomiInvitati){
+        console.log("non invitato");
+
+    }
 
 }
 
