@@ -12,7 +12,7 @@ Interrompi il ciclo appena il nome è stato trovato.
 //interrompere ciclo appena il nome viene trovato
 
 listaNomiInvitati = ["Luca" , "Marius", "Erica", "Silvia", "Matteo", "Stefano"];
-let nomeUtente = 
+let nomeUtente =""; 
 
     
 while (listaNomiInvitati = true){
