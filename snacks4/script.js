@@ -19,14 +19,18 @@ for(let i=0; i < listaNomiInvitati.length; i++){
 
     if (nomeUtente==listaNomiInvitati){
         console.log("trovato");
-        
-
-    }else (nomeUtente != listaNomiInvitati){
+    }  else if (nomeUtente !== listaNomiInvitati)
+    {
         console.log("non invitato");
 
-    }
+    }else{}
+
 
 }
+
+
+   
+
 
 
 
