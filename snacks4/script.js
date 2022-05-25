@@ -15,6 +15,7 @@ let listaNomiInvitati = ["Luca" , "Marius", "Erica", "Silvia", "Matteo", "Stefan
 let nomeUtente ="Matteo"; 
 for(let i=0; i < listaNomiInvitati.length; i++){
     console.log(listaNomiInvitati[i]);
+    if (nomeUtente=listaNomiInvitati)
 
 }
 
