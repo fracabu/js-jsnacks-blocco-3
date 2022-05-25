@@ -6,21 +6,25 @@ a quando la somma degli elementi è minore di 50.
 
 //creo array vuoto
 
-let arrayVuoto = [];
+const listaNumeri = [];
+let sommaNumeri = 0;
+
+while( sommaNumeri < 50){
+    let number = parseInt(prompt("inserisci un numero"));
+    sommaNumeri= sommaNumeri + number; 
+    console.log(sommaNumeri)
+}
 
 
 
-// creo prompt per chiedere all'utente di inserire un numero
+// creo prompt per chiedere all'utente di inserire un numero DA INSERIRE NEL CICLO
 
-let number = prompt("inserisci un numero");
+//let number = prompt("inserisci un numero");
 
 
 
 //continuo a chiedere numeri all'utente
 
-for (let i = 0; i < number.length; i++) {
-    
-    console.log(number[i]);
-  }
+
 
 //inserisco numeri nell'array fino a quando la somma degli elementi è minore di 50
