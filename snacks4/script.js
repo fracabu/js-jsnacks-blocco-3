@@ -13,7 +13,7 @@ Interrompi il ciclo appena il nome è stato trovato.
 
 let listaNomiInvitati = ["Luca" , "Marius", "Erica", "Silvia", "Matteo", "Stefano"];
 let nomeUtente ="Matteo"; 
-for(i=0; i < listaNomiInvitati.length; i++){
+for(let i=0; i < listaNomiInvitati.length; i++){
     console.log(listaNomiInvitati[i]);
 
 }
