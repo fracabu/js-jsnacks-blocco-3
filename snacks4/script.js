@@ -14,12 +14,12 @@ Interrompi il ciclo appena il nome è stato trovato.
 listaNomiInvitati = ["Luca" , "Marius", "Erica", "Silvia", "Matteo", "Stefano"];
 let nomeUtente =""; 
 
-    
+ /*   
 while (listaNomiInvitati = true){
     let nomeUtente = parseInt(prompt("inserisci il tuo nome"));
 
 }
-
+*/
 
 
 
