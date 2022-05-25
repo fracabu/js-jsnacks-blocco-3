@@ -11,15 +11,14 @@ Interrompi il ciclo appena il nome è stato trovato.
 //altrimenti no (alert "non puoi partecipare alla festa")
 //interrompere ciclo appena il nome viene trovato
 
-listaNomiInvitati = ["Luca" , "Marius", "Erica", "Silvia", "Matteo", "Stefano"];
-let nomeUtente =""; 
-
- /*   
-while (listaNomiInvitati = true){
-    let nomeUtente = parseInt(prompt("inserisci il tuo nome"));
+let listaNomiInvitati = ["Luca" , "Marius", "Erica", "Silvia", "Matteo", "Stefano"];
+let nomeUtente ="Matteo"; 
+for(i=0; i>5; i++){
+    console.log(listaNomiInvitati[2]);
 
 }
-*/
+
+
 
 
 
