@@ -12,7 +12,8 @@ Interrompi il ciclo appena il nome è stato trovato.
 //interrompere ciclo appena il nome viene trovato
 
 let listaNomiInvitati = ["Luca" , "Marius", "Erica", "Silvia", "Matteo", "Stefano"];
-let nomeUtente = (prompt("inserisci il tuo nome")); 
+let nomeUtente = "Matteo"; //(prompt("inserisci il tuo nome")); 
+console.log(listaNomiInvitati , nomeUtente);
 
 for(let i=0; i < listaNomiInvitati.length; i++){
     console.log(listaNomiInvitati[i]);
@@ -24,7 +25,7 @@ for(let i=0; i < listaNomiInvitati.length; i++){
     {
         console.log("non invitato");
 
-    }else{}
+    }
 
 
 }
